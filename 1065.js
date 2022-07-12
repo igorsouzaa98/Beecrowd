@@ -1,8 +1,8 @@
 var input = require('fs').readFileSync('stdin','utf8')
 var lines = input.split('\n');
 
-var array = [lines[0], lines[1], lines[2], lines[3], lines[4]]
-array = array.map(x=>parseInt(x))
+var array = lines.map(x=>parseInt(x))
+
 
 count = 0
 
